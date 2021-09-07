@@ -8,15 +8,21 @@
         font-size:46px ;
     }
     .para{
-        font-size: 30px;
+        font-size: 26px;
         padding-bottom: 15px;
+    }
+     /***************************Timeline UI***************************************/
+    .target p{
+        font-size: 30px;
+    }
+    .timelineH1 h2{
+        font-size: 30px;
+    }
+    .timelineH2 h2{
+        font-size: 30px;
     }
 }
  
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Custom media queries
-*/
  
 /* Set width to make card deck cards 100% width */
 @media (min-width: 950px) and (max-width:1100px) { 
@@ -30,6 +36,19 @@ Custom media queries
         font-size: 30px;
         padding-bottom: 15px;
     }
+     /***************************Timeline UI***************************************/
+    .First{
+        margin-top: 10px;
+    }
+    .target p{
+        font-size: 30px;
+    }
+    .timelineH1 h2{
+        font-size: 30px;
+    }
+    .timelineH2 h2{
+        font-size: 30px;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
@@ -39,9 +58,16 @@ Custom media queries
     .missionH{
         font-size:36px ;
     }
+     /***************************Timeline UI***************************************/
     .para{
         font-size: 30px;
         padding-bottom: 15px;
+    }
+    .timelineH1 h2{
+        font-size: 30px;
+    }
+    .timelineH2 h2{
+        font-size: 30px;
     }
    }
    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -55,6 +81,16 @@ Custom media queries
     .para{
         font-size: 28px;
         padding-bottom: 15px;
+    }
+     /***************************Timeline UI***************************************/
+    .target p{
+        font-size: 28px;
+    }
+    .timelineH1 h2{
+        font-size: 30px;
+    }
+    .timelineH2 h2{
+        font-size: 30px;
     }
     }
      
@@ -70,6 +106,19 @@ Custom media queries
     font-size: 17px;
     padding-bottom: 15px;
 }
+ /***************************Timeline UI***************************************/
+.First{
+    margin-top: 10px;
+}
+.target p{
+    font-size: 17px;
+}
+.timelineH1 h2{
+    font-size: 26px;
+}
+.timelineH2 h2{
+    font-size: 26px;
+}
 }
 @media (max-width:420px){
     .logo{
@@ -79,11 +128,24 @@ Custom media queries
         font-size: 25px;
     }
     .missionH{
-        font-size:23px ;
+        font-size:20px ;
     }
     .para{
         font-size: 16px;
         padding-bottom: 15px;
+    }
+     /***************************Timeline UI***************************************/
+    .First{
+        margin-top: 10px;
+    }
+    .target p{
+        font-size: 16px;
+    }
+    .timelineH1 h2{
+        font-size: 23px;
+    }
+    .timelineH2 h2{
+        font-size: 23px;
     }
 
 }
@@ -101,6 +163,19 @@ Custom media queries
         font-size: 14px;
         padding-bottom: 15px;
     }
+     /***************************Timeline UI***************************************/
+    .First{
+        margin-top: 10px;
+    }
+    .target p{
+        font-size: 14px;
+    }
+    .timelineH1 h2{
+        font-size: 19px;
+    }
+    .timelineH2 h2{
+        font-size: 19px;
+    }
 }
 @media (max-width:290px){
     .head{
@@ -112,6 +187,16 @@ Custom media queries
     .para{
         font-size: 12px;
         padding-bottom: 15px;
+    }
+    /***************************Timeline UI***************************************/
+    .target p{
+        font-size: 12px;
+    }
+    .timelineH1 h2{
+        font-size: 18px;
+    }
+    .timelineH2 h2{
+        font-size: 18px;
     }
 }
  

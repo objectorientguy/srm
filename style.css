@@ -29,3 +29,53 @@
 .para{
     color:gray;
 }
+/*----------------------Timeline--------------------------------------------*/
+.part2{
+    margin-bottom: 20px;
+}
+.tabLinks{
+    padding-left: 0px;
+
+}
+.menu::after{
+    display: block;
+    clear: both;
+    content:'';
+}
+.First{
+    height: 35px;
+    width: 75px;
+   padding-top:3px;
+    background-color:#DBF9DB;
+    border-radius: 5px;
+    margin: 0 1px;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: black;
+   
+
+}
+.target{
+    display: none;
+}
+.active1{
+    display: block;
+}
+.First:hover{
+    background-color: #64E986;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.active{
+    background-color: #90EE90;
+}
+.target p{
+    color: grey;
+}
+
+
+
