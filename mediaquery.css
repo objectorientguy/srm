@@ -21,6 +21,20 @@
     .timelineH2 h2{
         font-size: 30px;
     }
+      /********************************Video & Text************************************/
+      .panel{
+        height: 810px;
+        
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .text2 {
+        font-size: 30px;
+    }
 }
  
  
@@ -49,6 +63,20 @@
     .timelineH2 h2{
         font-size: 30px;
     }
+      /********************************Video & Text************************************/
+      .panel{
+        height: 850px;
+        
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .text2 {
+        font-size: 30px;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
@@ -63,10 +91,24 @@
         font-size: 30px;
         padding-bottom: 15px;
     }
-    .timelineH1 h2{
+    .timelineH h2{
         font-size: 30px;
     }
     .timelineH2 h2{
+        font-size: 30px;
+    }
+      /********************************Video & Text************************************/
+      .panel{
+        height: 800px;
+       
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .text2 {
         font-size: 30px;
     }
    }
@@ -92,10 +134,24 @@
     .timelineH2 h2{
         font-size: 30px;
     }
+      /********************************Video & Text************************************/
+      .panel{
+        height: 800px;
+      
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .text2 {
+        font-size: 30px;
+    }
     }
      
-/* Small devices (landscape phones, 544px and up) */
-@media (max-width: 544px) {  
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+        @media (max-width: 540px) {  
 .head{
     font-size:31px;
 }
@@ -117,6 +173,20 @@
     font-size: 26px;
 }
 .timelineH2 h2{
+    font-size: 26px;
+}
+  /********************************Video & Text************************************/
+  .panel{
+    height: 800px;
+   
+}
+.video{
+    padding-top: 20px;
+}
+.text1 {
+    font-size: 26px;
+}
+.text2 {
     font-size: 26px;
 }
 }
@@ -147,6 +217,32 @@
     .timelineH2 h2{
         font-size: 23px;
     }
+      /********************************Video & Text************************************/
+      .panel{
+        height: 800px;
+       
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .text1 {
+        font-size: 23px;
+    }
+    .text2 {
+        font-size: 23px;
+    }
+    /*************************************Testimonial**************************************************/
+    .owl-carousel .owl-prev {
+        left: -20px;
+      }
+      .owl-carousel .owl-next {
+        right: -20px;
+      }
+      .owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+   border: none;
+}
+      
 
 }
 @media (max-width:320px) {
@@ -170,10 +266,30 @@
     .target p{
         font-size: 14px;
     }
+
     .timelineH1 h2{
         font-size: 19px;
+        padding-left: 0px;
+        margin-left: 0px;
     }
     .timelineH2 h2{
+        font-size: 19px;
+    }
+      /********************************Video & Text************************************/
+      .panel{
+        height: 800px;
+       
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .top{
+        padding: 0px;
+    }
+    .text1 {
+        font-size: 19px;
+    }
+    .text2 {
         font-size: 19px;
     }
 }
@@ -196,6 +312,20 @@
         font-size: 18px;
     }
     .timelineH2 h2{
+        font-size: 18px;
+    }
+    /********************************Video & Text************************************/
+    .panel{
+        height: 800px;
+       
+    }
+    .video{
+        padding-top: 20px;
+    }
+    .text1 {
+        font-size: 18px;
+    }
+    .text2 {
         font-size: 18px;
     }
 }
