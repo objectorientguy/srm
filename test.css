@@ -1,0 +1,617 @@
+body { 
+	background-color: #aacccc ;
+	-webkit-user-select: none !important;
+    -moz-user-select: -moz-none !important;
+    -ms-user-select: none !important;
+    user-select: none;
+
+}
+
+.js .slider-for > div:nth-child(1n+2) { display: none }
+
+.js .slider-for.slick-initialized > div:nth-child(1n+2) { display: block }
+/*-------------------------------our client-------------------------------*/
+
+
+		
+.part6{
+	background-color:#F8F4F1;
+	width:100%;
+	height: 550px;
+	
+   
+}
+
+.slider-nav{
+   
+   /* margin-top: 60px;*/
+	width: 26%;
+   
+   
+    padding-top: 0px;
+    
+}
+.sl{
+    margin-top: 0px;
+   
+	border-radius: 50%;
+	border:none;
+
+}
+
+ .sl img{
+	margin-top: 15px;
+	margin-bottom: 15px;
+    height: 65px;
+	width: 65px;
+	/*margin-left: 25px;*/
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+    transition: all linear .4s;
+
+}
+.slider-nav .slick-center img {
+    transform: scale(1.2);
+}
+.sl img:hover{
+	transition: scale(1.1);
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+}
+
+/*----------------------------------client words-----------------------------------*/
+.words{
+	width: 100%;
+     /*height: 400px;*/
+	/*margin-top:30px;*/
+	height: 180px;
+	padding:0px;
+	
+	
+	
+}
+.slider-for{
+  
+   height: 180px;
+   width: 60%;
+
+}
+.clientr{
+	margin-top: 30px;
+}
+.clientw{
+    text-align: center;
+    font-weight: bold;
+}
+/*.topimg{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}*/
+.topimg img{
+	width: 170px;
+	height:150px;
+	float: right;
+	margin-top: -95px;
+   
+	
+	
+}
+
+.para{
+	width: 600px;
+	margin-top: 30px;
+	
+	/*margin-right: -30px;*/
+}
+.para p{
+	
+	width: 750px;
+	height: 200px;
+	text-align: center;
+	font-size: 15px;
+	color: gray;
+    margin: auto;
+	padding: 10px;
+	padding-left: 80px;
+	
+}
+/*-----------------------------left quote---------------------------*/
+.le{
+color:#E9AB17;
+text-align: left;
+float: left;
+font-size: 29px;
+padding-right: 10px;
+}
+/*---------------------------right quote----------------------------*/
+.ri{
+color:#E9AB17;
+text-align: right;
+float:right;
+font-size: 29px;
+}
+.slider-nav .slick-slide { cursor: pointer; }
+
+.slick-slide.is-active h3 {
+	color: #c00;
+	background-color:black;
+}
+
+
+/*------------------------------------arrows-------------------------*/
+.arrow_prev{
+	position:absolute;
+	top: 13%;
+	left: 20%;
+
+}
+
+.arrow_prev span{
+	font-size: 25px;
+     color:grey;
+	 display: block;
+	 width: 20px;
+	 height: 20px;
+	 text-align: center;
+	 line-height: 50px;
+	 cursor: pointer;
+}
+.arrow_next{
+	position:absolute;
+	top: 13%;
+	right: 19%;
+
+}
+
+.arrow_next span{
+	font-size: 25px;
+     color:grey;
+	 display: block;
+	 width: 12px;
+	 height: 13px;
+	 text-align: center;
+	 line-height: 50px;
+	 cursor: pointer;
+}
+/*.slick-dots{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 16px 0;
+	list-style: none;
+	bottom: 40px;
+}
+.slick-dots li{
+	/*margin: 0 0.25rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.slick-dots li button{
+	font-size: 0;
+	display: block;
+	width: 10px;
+	height: 10px;
+	padding:0;
+	border:none;
+	border-radius: 50%;
+	transition: .3s;
+}
+.slick-dots li.slick-active button{
+	background-color: #E9AB17;;
+	width: 15px;
+	height: 15px;
+}*/
+@media (min-width: 1210px) and (max-width:1500px){
+	.arrow_prev{
+      left: 14%;
+
+	}
+	.arrow_next{
+		right:13%;	
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  
+
+	.arrow_next{
+		position: absolute;
+		top: 13%;
+		right: 10%;
+	}
+	.arrow_prev{
+		position: absolute;
+		top: 13%;
+		left: 10%;
+	}
+
+
+}
+
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+	.sl img{
+		margin-left: 0px;
+		width: 60px;
+		height: 60px;
+		padding-left: 0px;
+	}
+	.arrow_next{
+		
+		top: 14%;
+		right:7%;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+	.sl img{
+		margin-left: 0px;
+		width: 60px;
+		height: 60px;
+		padding-left: 0px;
+	}
+	.arrow_prev{
+        top: 14%;
+		left:11%;
+	}
+	.arrow_next{
+		
+		top: 14%;
+		right:8%;
+	}
+	.words{
+		height: 350px;
+	}
+	.slider-for{
+		height: 240px;
+		width: 100%;
+
+	
+		
+	}
+	.topimg img{
+		width: 90px;
+		height: 90px;
+	
+	}
+    .para{
+		width:100%;
+		height: 100px;
+		margin-top: 0px;
+		padding: 20px;
+	}
+	.para p{
+		margin-top: 0px;
+		padding: 20px;
+		padding-top: 30px;
+		font-size: 12px;
+		
+	}
+	.le{
+       font-size: 15px;
+	   padding-right: 0px;
+	}
+	.ri{
+       font-size: 15px;
+	}
+}
+
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (max-width: 768px) {  
+	  .part6{
+		  height: 440px;
+	  }
+	  .slider-nav{
+		  width: 30%;
+		  margin-top: 15px;
+		  margin-bottom: 15px;
+	  }
+
+	.sl img{
+		margin-left: 0px;
+		width: 65px;
+		height: 65px;
+		padding-left: 0px;
+	}
+	.arrow_prev{
+        top: 14%;
+		left:11%;
+	}
+	.arrow_next{
+		
+		top: 14%;
+		right:8%;
+	}
+	.words{
+		height: 120px;
+		
+	}
+	.slider-for{
+		height: 120px;
+		width: 100%;
+
+	
+		
+	}
+	.topimg img{
+		width: 90px;
+		height: 90px;
+	
+	}
+    .para{
+		width:100%;
+		height: 100px;
+		margin-top: 0px;
+		padding: 20px;
+	}
+	.para p{
+		margin-top: 0px;
+		padding: 15px;
+		padding-top: 0px;
+		font-size: 12px;
+		
+	}
+	.le{
+       font-size: 15px;
+	   padding-right: 0px;
+	}
+	.ri{
+       font-size: 15px;
+	}
+  }
+
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (max-width: 540px) {
+	  .part6{
+		  height: 450px;
+	  }
+	  .slider-nav{
+		  width: 37%;
+	  } 
+	.sl img{
+		margin-left: 0px;
+		
+		width: 60px;
+		height: 60px;
+	}
+	.arrow_prev{
+		top: 11%;
+		left:10%;
+	}
+	.arrow_next{
+		
+		top: 11%;
+		right:9%;
+	}
+	.words{
+		height: 150px;
+		
+	}
+	.slider-for{
+		height: 150px;
+		width: 100%;
+
+	
+		
+	}
+	.topimg img{
+		width: 90px;
+		height: 90px;
+	
+	}
+    .para{
+		width:100%;
+		height: 100px;
+		margin-top: 0px;
+		padding: 20px;
+	}
+	.para p{
+		margin-top: 0px;
+		padding: 10px;
+		/*padding-top: 30px;*/
+		font-size: 12px;
+		
+	}
+	.le{
+       font-size: 15px;
+	   padding-right: 0px;
+	}
+	.ri{
+       font-size: 15px;
+	}
+	
+
+  }
+@media (max-width:420px) {
+   .part6{
+	   height: 500px;
+   }
+	.slider-nav{
+		width: 50%;
+	}
+	.sl img{
+		margin-left: 0px;
+		width: 60px;
+		height: 60px;
+	}
+	.arrow_prev{
+		top: 11%;
+		left:15%;
+	}
+	.arrow_next{
+		
+		top: 11%;
+		right:20%;
+	}
+	.words{
+		height: 180px;
+	}
+	.slider-for{
+		height: 180px;
+		width: 100%;
+
+	
+		
+	}
+	.topimg img{
+		width: 90px;
+		height: 90px;
+	
+	}
+    .para{
+		width:100%;
+		height: 100px;
+		margin-top: 0px;
+		padding: 20px;
+	}
+	.para p{
+		margin-top: 0px;
+		padding: 15px;
+		padding-top: 0px;
+		font-size: 12px;
+		
+	}
+	.le{
+       font-size: 15px;
+	   padding-right: 0px;
+	}
+	.ri{
+       font-size: 15px;
+	}
+}
+
+@media (max-width:376px){
+	.slider-nav{
+        width: 52%;
+		height: 100px;
+		
+    }
+	.sl img{
+      margin-left: 0px;
+	
+	 padding:0px ;
+	 margin-top: 15px;
+     margin-bottom: 15px;
+	  width: 60px;
+	  height: 60px;
+
+	}
+	.arrow_prev{
+		top: 12%;
+		left: 14%;
+	}
+	.arrow_next{
+		
+		top: 12%;
+		right:15%;
+	}
+	.words{
+		height: 170px;
+		
+		margin-top: 10px;
+		
+	}
+	.slider-for{
+		height: 170px;
+		width: 100%;
+	
+
+	
+		
+	}
+	.topimg img{
+		width: 90px;
+		height: 90px;
+	
+	}
+    .para{
+		width:100%;
+		height: 100px;
+		margin-top: 0px;
+		padding: 20px;
+	}
+	.para p{
+		margin-top: 0px;
+		padding: 15px;
+		padding-top: 0px;
+		font-size: 12px;
+		
+	}
+	.le{
+       font-size: 15px;
+	}
+	.ri{
+       font-size: 15px;
+	}
+}
+
+@media (max-width:320px){
+	.part6{
+		height: 500px;
+	}
+	.slider-nav{
+        width: 67%;
+		height: 100px;
+		
+    }
+	.sl img{
+		padding-left: 00px;
+	   margin-left: 0px;
+		width: 60px;
+		height: 60px;
+  
+	  
+	  }
+	  .words{
+		height: 170px;
+		
+		margin-top: 10px;
+		
+	}
+	.slider-for{
+		height: 170px;
+	}
+.arrow_prev{
+	top: 12%;
+	left: 11%;
+}
+
+	.arrow_next{
+		
+		top: 12%;
+		right:15%;
+	}
+	.para{
+		padding: 10px;
+	}
+	.para p{
+		padding: 5px;
+		font-size: 10px;
+	}
+}
+@media (max-width:290px){
+	.slider-nav{
+		width: 63%;
+	}
+	.sl img{
+		width: 50px;
+		height: 50px;
+		padding-left: 0px;
+	}
+	.arrow_next{
+		right: 8%;
+	}
+	.para{
+		padding: 10px;
+	}
+	.para p{
+		font-size: 10px;
+		padding: 15px;
+	}
+}

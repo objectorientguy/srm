@@ -1,5 +1,16 @@
 /*------------------------------------Style.css--------------*/
 /*---------------logo-------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    -webkit-user-select: none !important;
+    -moz-user-select: -moz-none !important;
+    -ms-user-select: none !important;
+    user-select: none;
+}
 .logo{
     margin-top: 100px;
 }
@@ -18,6 +29,7 @@
 .mission{
     margin-top: 50px;
    
+   
     
 }
 .missionH{
@@ -32,10 +44,7 @@
 /*----------------------Timeline--------------------------------------------*/
 .part2{
     margin-bottom: 20px;
-}
-.tabLinks{
-    padding-left: 0px;
-
+   
 }
 .menu::after{
     display: block;
@@ -58,6 +67,10 @@
    
 
 }
+
+.menu a.active{
+    background-color:#64E986 ;
+}
 .target{
     display: none;
 }
@@ -69,6 +82,8 @@
     text-decoration: none;
     cursor: pointer;
     color: white;
+    transition: 1s;
+    transform: scale(1.1);
 }
 .active{
     background-color: #90EE90;
@@ -76,6 +91,92 @@
 .target p{
     color: grey;
 }
+.ims{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.ims img{
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    background-blend-mode:screen;
+    
+   
+}
+/**********************************Part-3********************************************/
 
+/*-------------------------------Video Panel & Text --------------------------------*/
+.part3{
+    background-image: url("images/bg2.png");
+    height: auto;
+    margin-bottom: 150px;
+  
+ 
+    
+}
+.panel{
+    height:550px;
+  /* background-color: #FFFAF0;*/
+   margin: 1px;
+   
+  
+}
 
+/*.text{
 
+    height: 550px;
+}*/
+.text1{
+    color:#413839;
+   
+}
+.text2{
+    color: #413839;
+}
+.video{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.videoplay{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.btn-warning{
+
+    color: white;
+}
+
+/*---------------------------our clients-----------------------*/
+.logos{
+    margin-top: 100px;
+   
+
+}
+.logos img{
+    width:50px;
+    height: 50px;
+}
+.clienth{
+    text-align: center;
+    font-weight: bold;
+}
+/*------------------------------------------------------------------*/
+/*------------------------Footer--------------*/
+footer{
+
+	height: auto;
+	width: 100%;
+	background-color:#F8F4F1;;
+    /*display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;*/
+    color: grey;
+    margin-top: 150px;
+ 
+
+}
+.text-uppercase{
+	color: black;
+}
